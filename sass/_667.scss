@@ -1,0 +1,81 @@
+// ==========================================================
+
+// 667 scss by Matt Lee 
+// Version: 1.0
+// URL: http://holden4u.com/sass
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+
+/* 667 =================================================== */
+
+.container {
+      width: 100%;
+      /* 90% */
+      //margin: 0 auto;       
+  }
+  .summary {
+      width: 55%;
+      float: left;
+  }
+  .bio {
+      width: 35%;
+      float: right;
+  }
+  
+  #header {
+      // visiblity: hidden;
+      //  display: none;
+      //  font: italic normal 20% 'Times New Roman', Times, serif; /* 230 */
+      //  font-size: small;
+      width: 598px; /* today 440px; */
+      max-width: 667px;
+      //height: auto; /* added today */
+
+  }
+
+  #headerimg {
+      width: 610px; /*** correct for 320 */
+      max-width: 667px;
+      font-size: 33px;
+
+      h1 {
+          font-size: 25px;  /* 25px perfect */
+          text-align: left;
+      }
+  }
+  .description {
+      width: 610px; /* correct for 320 */
+      max-width: 667px;
+      font-size: 2px;
+      text-align: left;
+  }  
+
+  #hdr_pic {
+      // display: none;
+      //padding-top: 50px;
+      width: 570px; /* perfect */
+      max-width: 667px;
+      //  height: auto;
+  }
+
+ // .description{
+ //     text-align: center;
+ // }
+  
+  
+
+// 1. ROOT 				==============================
+// 2. TYPOGRAPHY 			==============================
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+//.description{
+//    text-align: center;
+//}
+
+// 7. VENDOR-SPECIFIC 		        ==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	        ==============================

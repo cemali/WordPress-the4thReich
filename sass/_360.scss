@@ -1,0 +1,133 @@
+// ==========================================================
+
+// 360 scss by Matt Lee 
+// Version: 1.0
+// URL: http://holden4u.com/sass
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+/* 360 =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+//.subhead {
+//    h1 {
+//        font-size: 48px; // books states 60px;
+//    }
+//    p{
+//        font-size: 24px;
+//    }
+//}
+
+//.row-fluid .span10 {
+//    width: 80%;
+//    p{
+//    font-size: 12px;
+//    }
+//}
+
+//.span10 {
+//    width: 320px;
+//    height: auto;
+//    h2{
+//        font-size: 20px;
+//    }
+//    p{
+//        font-size: 20px;
+//    }
+    
+//    img {
+//        width: 100%;
+//        height: auto;
+//    }
+//}
+
+//.span4 {
+//    //width: 320px;
+//    height: auto;
+//    width: auto;
+//}
+  
+#header { /* size of boader and pic */
+    font: italic normal 20% 'Times New Roman', Times, serif; /* 230 */
+    
+    font-size: 8px;
+    width: 290px; /* 420 changed the alignment of boarders */
+    max-width: 360px;
+}
+
+
+
+
+
+#headerimg {
+    width: 360px; /*** 360correct for 360 */
+    max-width: 360px;
+    font-size: 33px;
+    //max-width: 360px;
+    //padding-right: 30px;
+
+    h1 {
+        font-size: 8px;  /* 8px perfect */
+        text-align: left;
+    }
+}
+.description {
+    width: 300px; /*300 correct for 360 */
+    max-width: 360px;
+    font-size: 2px;
+    text-align: left;
+    //padding-left: 80px;
+   // max-width: 360px;
+}  
+
+#hdr_pic {
+    // display: none;
+     //margin-right: 100px;
+    padding-right: 38px;
+    width: 260px;
+    max-width: 360px;
+    //max-width: 360px;
+    //  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//#headerimg {
+   //  visiblity: hidden;
+   //  display: none;
+  //  width: 360px; /*** correct for 640 */
+  //  max-width: 640px;
+    
+    
+//    h1 {
+    //    display: none;
+       // visiblity: hidden;
+//        font-size: 33px;
+//        text-align: left;
+//    }
+//}
+//.description {
+    //  display: none;
+   //  visiblity: hidden;
+ //   width: 360px; /* correct for 640 */
+  //  max-width: 640px;
+  //  font-size: 4px;
+//}  
+    
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================

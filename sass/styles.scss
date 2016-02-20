@@ -1,0 +1,398 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+//Import Boostrap-responsive
+@import "bootstrap-responsive.css";
+
+// Import font-awesome 
+@import "font-awesome";
+
+// added the other scss styles starts here 12172015
+
+// Variables and mixins
+//@import "variables";
+@import "mixins";
+
+// Site wide styles (html, body)
+//@import "site";
+
+// 2. TYPOGRAPHY 			==============================
+
+// Block level (h1, p) and text-level (em, strong) type
+//@import "typography";
+
+// 3. COLOUR 				==============================
+
+// Colour interaction semantics
+@import "colour";
+
+// 4. TEXTURE 				==============================
+
+// Alerts, badges, boxes and gradients
+//@import "texture";
+
+// Font Awesome icon fonts (optional)
+//@import "font-awesome";
+
+// 5. ELEMENTS 				==============================
+
+// Figures, images and other elements
+//@import "elements";
+
+// Standard form controls
+//@import "forms";
+
+// Button styles (optional)
+//@import "buttons";
+
+// Tables
+//@import "tables";
+
+// 6. LAYOUT 			==============================
+
+// Page level layout styles (banner, navigation, content, contentinfo)
+//@import "page"; // does not work with bootstrap at this time. 12182015
+
+
+//  7. VENDOR-SPECIFIC 		==============================
+//  8. MODERNIZR 			==============================
+
+// @import "modernizr";
+
+//  9. TEMPLATE SPECIFICS 	==============================
+//  10. MEDIA QUERIES 		==============================
+
+//@media print {
+//    @import "print";
+//}
+// scss styles ends here 
+
+//320px
+@media only screen and (min-width: 320px) {
+    @import "320";
+}
+
+//360px
+@media only screen and (min-width: 360px) {
+    @import "360";
+}
+
+
+//375px
+@media only screen and (min-width: 375px) {
+    @import "375";
+}
+
+//384px
+@media only screen and (min-width: 385px) {
+    @import "384";
+}
+
+// 480px
+@media only screen and (min-width: 480px) {
+    @import "480";
+}
+
+
+// 600px
+@media only screen and (min-width: 600px) {
+    @import "600";
+    
+    
+}
+
+// 640px
+@media only screen and (min-width: 640px) {
+    @import "640";
+}
+
+// 667px
+@media only screen and (min-width: 667px) {
+    @import "667";
+}
+
+// 768px
+@media only screen and (min-width: 768px) {
+    @import "768";  
+    
+}
+
+
+// 800px
+@media only screen and (min-width: 800px) {
+    @import "800";  
+}
+
+// 992px
+@media only screen and (min-width: 992px) {
+    @import "992";
+    
+}
+
+// 1024px
+@media only screen and (min-width: 1024px) {
+    @import "1024";
+
+}
+
+
+// 1200px
+@media only screen and (min-width: 1200px) {
+    @import "1200";
+
+}
+
+
+// 1382px
+@media only screen and (min-width: 1382px) {
+    @import "1382";
+}
+
+// 2x
+//@media
+//only screen and (-webkit-min-device-pixel-ratio: 1.5),
+//only screen and (min--moz-device-pixel-ratio: 1.5),
+//only screen and (min-device-pixel-ratio: 1.5) {
+//    @import "2x"; }
+
+.body {
+    background-color: $cod-grey;
+}
+
+.container {
+    /* color:   $firebrick; */
+   
+}
+
+//.mySummary {
+//   a{
+//      display: block;
+//      padding: .5em;
+//      color: $color10;
+//      opacity: .7;
+//      border: none;
+//      &:hover {
+//           opacity: 1;
+//      }
+
+//      &:visted {
+//        opacity: .9;
+//      }
+
+//      b {
+
+//        display: block;
+//      }
+//      span {
+//        display: block;
+//        font-size: .8em;
+//      }
+//   }
+
+
+//}
+
+footer {
+    clear: both;
+    padding: 15px 0;
+    text-align: center;
+    /*//background: #1b1b1b; */
+      //background: $bright-red;
+    background: $firebrick;
+    color: #fffff;
+    overflow: auto;    
+    p {
+        padding: 9px 15px;
+    }
+    .social {
+        list-style: none; 
+        margin: 0 auto;
+        width: 350px; // 280px;
+        li{
+            float: left;
+            height: 80px;
+            width: 80px;
+            list-style: none;
+            border-radius: 50%;
+            background: #000;
+            margin-right: 20px;
+            a {
+                font-size: 42px;
+                padding-top: 24px;
+                color: #808080;
+                &:visited {
+                    color: #555;
+                    text-decoration: none;
+                }
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        li:last-child {
+            margin-right: 0;
+        }
+       }
+    .toplink{
+        clear:both;
+        a {
+            display:inline-block;
+            padding:30px;
+            color: #fff;
+        }
+    }
+  }
+}
+//$body-bg:  #b30015;
+$navbar-default-color:  #b30015;
+.navbar-inverse{ /* the mobile dropdown */
+    background-color: #000000;
+}
+
+//#.navbar-fixed-top{
+//#    background-color: #000000;
+//#    
+//#}
+.nav { /* sidebar */
+    color: $bright-red;
+    background-color: #000000;
+    border-color: $bright-red;
+}
+
+ .well sidebar-nav {
+    background-color: $firebrick; /* $deep-cerulean; */
+    color: $firebrick; 
+} 
+
+.container { /* hero - the meat of the content is black */
+    background-color: $mine-shaft; /* #000000; */
+    
+}
+
+.row-fluid { /* the sidebar background is black */
+    background-color: #000000;
+    //color: $bright-red; words are red.
+}
+
+.span10 {
+    background-color:  #000000; 
+    h2 {
+        color: #ffffff;
+    }
+    p{
+        color: #ffffff;
+    }
+}
+
+.span2 {
+    background-color: #000000;
+    p{
+        color: $bright-red;
+    }
+}
+
+.span8 {
+    background-color:   $mine-shaft; /* #000000; */
+    h2 {
+        color: #ffffff;
+    }
+    p {
+        color: #ffffff;
+        background-color: #000000;
+    }
+}
+
+.span4 {
+    background-color:  #000000;
+    h2 {
+        color: #ffffff;
+        background-color: #000000;
+        img {
+            background-color: #000000;
+        }
+        p{
+            background-color: #ffffff;
+        }
+    }
+}
+.span3 {
+    background-color: #000000;
+    color: #000000;
+}
+
+
+//#p acer1 {
+//#    background-color: $deep-cerulean;
+//#    color: $deep-cerulean;
+//#}
+
+#header {
+    background-color: $mine-shaft;/*$firebrick; */
+	//border-bottom: double 3px #aba;
+	//border-left: solid 1px #9a9;
+	//border-right: solid 1px #565;
+	//border-top: solid 1px #9a9;
+	font: italic normal 230% 'Times New Roman', Times, serif;
+        color: #ffffff;
+	letter-spacing: 0.2em;
+	margin: 0;
+	padding: 10px 10px 10px 30px; /* 60 */
+        
+}
+
+
+#headerimg  {
+  //margin: 4px 4px 4; 
+  height: 100px;
+  width: 700px;
+  text-align: center;
+  font-size: large;
+}
+
+.description{
+    //text-align: center;
+    //font-size: 42px;
+}
+
+li.nav_desktopVersion {
+    display:none;
+}
+
+//.btn-navbar { // bootstrap already does this - remove DRY
+//    background: $white; /* #1b1b1b; */
+//    overflow: hidden;
+//    max-height:44px;
+//    @include transition(max-height .5s);
+//    &.open{
+//        max-height: 220px;  
+//}
+//.navbar-inner {
+//    .logo{
+//        display: block;
+//        padding: 9px 15px;
+//        font-weight: bold;
+//        color: #999999;
+//        margin-bottom: 4px;
+//    }
+//    .nav {
+//        margin-bottom: 0;
+//        list-style:none;
+//        a {
+//            @extend .logo;
+//        }
+//    }
+//}
+//}
+
+
+
+
+
+
+
+

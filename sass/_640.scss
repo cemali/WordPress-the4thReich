@@ -1,0 +1,100 @@
+// ==========================================================
+
+// 640 scss by Matt Lee 
+// Version: 1.0
+// URL: http://holden4u.com/sass
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// ==========================================================
+
+
+/* 640 =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+
+.row-fluid .span10 {
+    width: 80%;
+    p{
+    font-size: 12px;
+    }
+}
+
+.span10 {
+    width: 320px;
+    height: auto;
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.span4 {
+    //width: 320px;
+    height: auto;
+    width: auto;
+}
+
+//#header {
+//    font: italic normal 20% 'Times New Roman', Times, serif; /* 230 */
+//    width: 420px; /* changed the alignment of boarders */
+//    font-size: 8px;
+   
+//}
+
+
+//#me {
+//   display: none;
+//}
+
+#header {
+    // visiblity: hidden;
+    //  display: none;
+    //  font: italic normal 20% 'Times New Roman', Times, serif; /* 230 */
+    //  font-size: small;
+    width: 570px; /* today 440px; */
+    max-width: 640px;
+    //height: auto; /* added today */
+
+}
+
+#headerimg {
+    width: 610px; /*** correct for 320 */
+    max-width: 640px;
+    font-size: 33px;
+
+    h1 {
+        font-size: 25px;  /* 25px perfect */
+        text-align: left;
+    }
+}
+.description {
+    width: 610px; /* correct for 320 */
+    max-width: 640px;
+    font-size: 2px;
+    text-align: left;
+}  
+
+#hdr_pic {
+    // display: none;
+    //padding-top: 50px;
+    width: 550px; /* perfect */
+    max-width: 640px;
+    //  height: auto;
+}
+
+
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				==============================
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================

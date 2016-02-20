@@ -1,0 +1,156 @@
+// ==========================================================
+
+// 600 scss by Matt Lee 
+// Version: 1.0
+// URL: http://holden4u.com/sass
+// Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
+
+// =========================================================
+
+/* 600 =================================================== */
+
+// 1. ROOT 					==============================
+// 2. TYPOGRAPHY 			==============================
+//.subhead {
+//    h1 {
+//        font-size: 60px;
+//    }
+//}
+
+//.subhead {
+    
+//    //text-align: left;
+//    h1 {
+//        font-size: 60px;
+//    }
+//}
+
+// 3. COLOUR 				==============================
+// 4. TEXTURE 				============================
+
+// 5. ELEMENTS 				==============================
+// 6. LAYOUT 				==============================
+//.container {
+//    width: 100%; /* 90% */
+//    margin:  0 auto; 
+//}
+/* that enough space */
+//.navbar-inverse {
+//    //display: none;
+//    position: fixed; width: 100%;
+//    padding-bottom: 8px;
+//}
+
+//.nav-collapse .open {
+//	display: inline
+//}
+
+.btn-navbar { /* wide enough to not use mobile navigation */
+    display: inline;                
+    //visibility: hidden;
+   // position: fixed; width: 100%; *
+    padding-bottom: 8px; 
+      
+}
+/* adding the nav collapse for mobile 01162015 */
+//.collapse { /* does not work - no display of desktop menu */
+//    display: none !important;
+//}
+
+
+.brand {
+    display: none;
+}
+
+.navbar-text {
+    display: none;
+}
+
+.logo {
+    float: left;
+}
+.nav.li {
+    float: left;
+}
+
+.navbar-inverse {
+    position: fixed;
+    width: 100%;
+    padding-bottom: 8px;
+    .logo {
+        float: left;
+    }
+   // .nav li {
+   //     display: inline;
+   // } 
+
+    li.nav {
+        display: inline;
+    }
+    
+    .nav_desktopVersion {
+        display: inline;
+    }
+    
+}
+
+.nav_list { /* sidebar listing */
+    display: none;
+}
+
+#mySpan3 { /* sidebar listing */
+    display: none;
+}
+
+#social-widget-2 {
+    float: right;
+}
+
+#headerimg {
+    //padding-left: 20px;
+    width: 500px;
+    max-width: 600px; /*** correct for 320 */
+    // height: auto; /* 1.29.2016 */
+    // font-size: 32px;
+
+    h1 {
+        font-size: 10px; /* changed font size 1.29.2016  10px; */ /* 10px perfect for 320 */
+        text-align: left;
+    }
+}
+.description {
+    width: 550px;
+    max-width: 600px; /* correct for 320 */ 
+    font-size: small; /* 1.29.2016 1px; */
+    //height: auto; /* 1.29.2016 */
+    text-align: left;
+}
+
+#header {
+    width: 530px;
+    max-width: 600px; /* perfect *//* 320px; */ /* add changes to header size height 1.29.2016 */
+    //height: 190px; /* 1.29.2016*/
+
+}
+
+
+
+#welcome_message{
+    //width: auto;
+    //height: auto;
+    font-size: small;
+}
+
+
+#hdr_pic {
+    //  display: none;
+    padding-top: 50px; /* change this 1.29.2016 */
+    width: 530px;  /* 280px */
+    max-width: 600px; /* 320 px today */
+    //height: auto;
+}
+
+
+// 7. VENDOR-SPECIFIC 		==============================
+// 8. MODERNIZR 			==============================
+// 9. TEMPLATE SPECIFICS 	==============================

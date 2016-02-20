@@ -1,0 +1,63 @@
+/*
+Theme Name: The4thReich
+Theme URI: http://holden4u.com/wordpress/wp-content/theme/the4threich
+Description: A Theme for the4threich using forums <a href="http://holden4u.com/wordpress/wp-content/themes/the4threich"> The4thReich Theme with Bootstrap</a>.
+Author: Matt Lee
+Author URI: http://holden4u.com/
+Version: 1.0
+Tags: responsive, white, bootstrap 3.3.4
+
+*/
+/* @import url('//localhost/wordpress/wp-content/themes/the4reich/stylesheets/bootstrap.css');
+@import url('//localhost/wordpress/wp-content/themes/the4reich/stylesheets/bootstrap-theme.css');
+@import url('//localhost/wordpress/wp-content/themes/the4reich/stylesheets/bootstrap-responsive.css'); 
+@import url('//localhost/wordpres/wp-content/theme/the4reich/stylesheets/styles.css'); */
+
+
+body {
+    padding-top: 60px; /* bootstrap 2.0 update */
+    padding-bottom: 40px;
+}
+.sidebar-nav { /* inside the body top/bottom */
+               padding: 9px 0; 
+               
+} /* padding for bootstrap 2.0 */
+
+@media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+        float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+
+
+
+header {
+     background-color: grey;
+}
+
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+
+     background-color: grey;
+}
+
+.navbar {
+       background-color: firebrick;
+}
+
+.header-image {
+       background-color: grey;
+}
+
+
+ul {
+
+       background-color: #6565656;
+
+}
+
