@@ -160,7 +160,8 @@ if (!defined('ABSPATH')) {
                     <li class="nav_desktopVersion"><a href="#">PC Windows</a></li>
                     <li class="nav_desktopVersion"><a href="#">News</a></li>
                     <li class="nav_desktopVersion"><a href="#">Staff</a></li>
-                    <li class="nav_desktopVersion"><a href="#">Forums</a></li>
+                   <!--  <li class="nav_desktopVersion"><a href="#">Forums</a></li> -->
+                   <li class="nav_desktopVersion"><a href="//the4threich.freeforums.net" target = _blank >Forums</a></li>
                     <li class="nav_desktopVersion"><a href="#">Chat</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
