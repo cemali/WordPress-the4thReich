@@ -1,0 +1,82 @@
+/* CSS Document */
+/* line 2, ../sass/styleChat.scss */
+body {
+  font: 12px arial;
+  color: #222;
+  text-align: center;
+  padding: 35px; }
+
+/* line 9, ../sass/styleChat.scss */
+form, p, span {
+  margin: 0;
+  padding: 0; }
+
+/* line 14, ../sass/styleChat.scss */
+input {
+  font: 12px arial; }
+
+/* line 16, ../sass/styleChat.scss */
+a {
+  color: #0000FF;
+  text-decoration: none; }
+
+/* line 20, ../sass/styleChat.scss */
+a:hover {
+  text-decoration: underline; }
+
+/* line 22, ../sass/styleChat.scss */
+#wrapper, #loginform {
+  margin: 0 auto;
+  padding-bottom: 25px;
+  background: #EBF4FB;
+  width: 504px;
+  border: 1px solid #ACD8F0; }
+
+/* line 30, ../sass/styleChat.scss */
+#loginform {
+  padding-top: 18px; }
+
+/* line 32, ../sass/styleChat.scss */
+#loginform p {
+  margin: 5px; }
+
+/* line 34, ../sass/styleChat.scss */
+#chatbox {
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 10px;
+  background: #fff;
+  height: 270px;
+  width: 430px;
+  border: 1px solid #ACD8F0;
+  overflow: auto; }
+
+/* line 45, ../sass/styleChat.scss */
+#usermsg {
+  width: 395px;
+  border: 1px solid #ACD8F0; }
+
+/* line 49, ../sass/styleChat.scss */
+#submit {
+  width: 60px; }
+
+/* line 51, ../sass/styleChat.scss */
+.error {
+  color: #ff0000; }
+
+/* line 53, ../sass/styleChat.scss */
+#menu {
+  padding: 12.5px 25px 12.5px 25px; }
+
+/* line 55, ../sass/styleChat.scss */
+.welcome {
+  float: left; }
+
+/* line 57, ../sass/styleChat.scss */
+.logout {
+  float: right; }
+
+/* line 59, ../sass/styleChat.scss */
+.msgln {
+  margin: 0 0 2px 0; }
