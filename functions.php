@@ -148,3 +148,9 @@ function reich_user_logged_in_as() {
 
 //add_action('login_enqueue_scripts', 'themeslug_enqueue_style', 10);
 //add_action('login_enqueue_scripts', 'themeslug_enqueue_script', 1);
+
+function mlh_4r_chatroom_wp_footer() {
+    echo 'I looking into developing web apps with WordPress, coming thru 4th theme functions and not plugin';
+}
+
+add_action('wp_footer', 'mlh_4r_chatroom_wp_footer');
